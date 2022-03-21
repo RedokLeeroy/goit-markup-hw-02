@@ -23,7 +23,7 @@ body {
     list-style-type: none; 
 }
 
-.navigation a {
+.navigation {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -32,8 +32,8 @@ body {
     color: var(--brand-color-black);
 }
 
-.navigation a:hover,
-.navigation a:focus {
+.navigation:hover,
+.navigation:focus {
 color: var(--brand-color-blue);
 }
 
@@ -48,11 +48,7 @@ color: var(--brand-color-blue);
     text-transform: uppercase;
 }
 
-.button{
-    width: 200px;
-    height: 50px;
-    left: 700px;
-    top: 430px;
+.large-button-text {
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
@@ -60,13 +56,40 @@ color: var(--brand-color-blue);
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    background: #2196F3;
     color: var(--brand-color-white);
+}
+.large-button {
+    background-color: var(--brand-color-blue);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    border: 0px;
+    border: 0px; 
+    width: 200px;
+    height: 50px;
 }
 
+.small-button-text button{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.small-button-text button:hover,
+.small-button-text button:focus {
+    color: var(--brand-color-white);
+}
+.small-button button{
+    background-color: var(--brand-color-white);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    border: 0px;
+    }
+.small-button button:hover,
+.small-button button:hover{
+    background-color: var(--brand-color-blue);
+}
+
+}
 .articles-header h3{
     width: 270px;
     height: 16px;
@@ -86,16 +109,92 @@ color: var(--brand-color-blue);
     letter-spacing: 0.03em;
     color: var(--brand-color-gray);
 }
-
-.blue,
-.bluelink a{
-    color: var(--brand-color-blue);
+.product-header h3 {
+    width: 322px;
+    height: 36px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
 }
-.gray,
-.graylink a{
+.product-parafraph p{
+    width: 322px;
+    height: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
     color: var(--brand-color-gray);
 }
-.white,
-.whitelink a{
+
+.header2wwd {
+    width: 376px;
+    height: 42px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.header2oc {
+    width: 264px;
+    height: 42px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team-name h3{
+    width: 151px;
+    height: 19px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.job-position p{
+    width: 151px;
+    height: 19px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--brand-color-gray);
+}
+
+.footer-nav{
+    width: 231px;
+    height: 21px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+.footer-adress {
+    width: 231px;
+    height: 21px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--brand-color-white);
+    text-decoration: none;
+}
+.blue{
+    color: var(--brand-color-blue);
+}
+.gray{
+    color: var(--brand-color-gray);
+}
+.white{
     color: var(--brand-color-white);
 }
