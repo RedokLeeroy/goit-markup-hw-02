@@ -1,0 +1,101 @@
+body { 
+    font-family: 'Roboto', sans-serif;
+    color: #212121;
+}
+
+:root{
+    --brand-color-black: #212121;
+    --brand-color-blue: #2196F3;
+    --brand-color-gray: #757575;
+    --brand-color-white: #ffffff;
+
+}
+.logo {
+    font-family: 'Raleway';
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--brand-color-black);
+}
+
+.dot-hide > li {
+    list-style-type: none; 
+}
+
+.navigation a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--brand-color-black);
+}
+
+.navigation a:hover,
+.navigation a:focus {
+color: var(--brand-color-blue);
+}
+
+.main-statement{
+    width: 696px;
+    height: 120px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.button{
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background: #2196F3;
+    color: var(--brand-color-white);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: 0px;
+}
+
+.articles-header h3{
+    width: 270px;
+    height: 16px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.articles-paragraph p{
+    width: 270px;
+    height: 75px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--brand-color-gray);
+}
+
+.blue,
+.bluelink a{
+    color: var(--brand-color-blue);
+}
+.gray,
+.graylink a{
+    color: var(--brand-color-gray);
+}
+.white,
+.whitelink a{
+    color: var(--brand-color-white);
+}
