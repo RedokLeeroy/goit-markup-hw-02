@@ -87,7 +87,7 @@ color: var(--brand-color-blue);
     }
 
 .small-button button:hover,
-.small-button button:hover{
+.small-button button:focus{
     background-color: var(--brand-color-blue);
 }
 
@@ -145,7 +145,7 @@ color: var(--brand-color-blue);
 }
 
 .job-position p{
-    font-weight: 500;
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
@@ -170,6 +170,21 @@ color: var(--brand-color-blue);
     color: var(--brand-color-white);
     text-decoration: none;
 }
+
+.font-style-none {
+    font-style: normal;
+}
+
+.footer-nav:hover,
+.footer-nav:focus {
+    color: var(--brand-color-blue);
+}
+
+.footer-adress:hover,
+.footer-adress:focus {
+    color: var(--brand-color-blue);
+}
+
 .backgroundblk{
 background-color: var(--background-color);
 }
